@@ -2,6 +2,13 @@
 
 Welcome to the LILA BLACK Player Journey viewer! This tool allows Level Designers to easily load, filter, and play back massive amounts of production gameplay data (movement, kills, deaths, loot) directly on our minimaps.
 
+Markdown
+# 🚀 Live Deployment Links
+- **Frontend (UI):** https://lila-black-player-journey.vercel.app/
+- **Backend (API):** https://lila-player-journey-api-wg51.onrender.com
+
+
+
 ## 🛠 Tech Stack
 
 * **Backend:** Python 3.10+, FastAPI, DuckDB (for insanely fast parquet querying)
@@ -61,7 +68,7 @@ Create a `.env` file in the `frontend` folder with the following format:
 
 ```env
 # URL of your deployed FastAPI backend
-VITE_API_BASE_URL=https://your-backend-app-name.onrender.com
+VITE_API_BASE_URL=https://lila-player-journey-api-wg51.onrender.com
 ```
 
 *Note: Make sure your deployed backend sets up CORS properly to accept requests from your deployed frontend domain!*
@@ -69,7 +76,9 @@ VITE_API_BASE_URL=https://your-backend-app-name.onrender.com
 ---
 
 ## 🎥 Project Walkthrough
-The video walkthrough is included in the repository: `assets/walkthrough.mp4`
+
+Watch the complete, smooth feature walkthrough video on Loom:
+👉 **https://www.loom.com/share/506c52360f0e42f78b332fc6e5b4ef30**
 
 ---
 
