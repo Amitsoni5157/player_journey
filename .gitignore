@@ -1,0 +1,15 @@
+# Python filters
+__pycache__/
+*.pyc
+
+# Streamlit logs/config
+.streamlit/
+
+# Local Environment
+.env
+venv/
+env/
+
+# Large Data Files (Yeh sabse important hai!)
+# Hum data files ko GitHub par push nahi karenge kyunki wo bohot badi hoti hain
+player_data/
